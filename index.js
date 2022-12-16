@@ -34,7 +34,7 @@ function saveText(e) {
     'href',
     'data:text/plain;charset=utf-8,' + encodeURIComponent(text)
   );
-  downloadBtn.setAttribute('download', 'text.txt');
+  downloadBtn.setAttribute('download', 'data.txt');
   downloadBtn.click();
 }
 
